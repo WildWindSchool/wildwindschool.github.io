@@ -1,0 +1,20 @@
+/* PRE LOADER */
+.preloader {
+  position: fixed;
+  top:    0;
+  left:   0;
+  right:  0;
+  bottom: 0;
+  background-color: #D4D0C8;
+  z-index: 99; /* makes sure it stays on top */
+  height: 100%;
+  width:  100%;
+  overflow: hidden !important;
+}
+
+.status {
+  position: absolute;
+  left: 50%; /* centers the loading animation horizontally one the screen */
+  top:  50%;
+  color: #3C2313;
+}
